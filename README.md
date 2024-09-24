@@ -28,7 +28,8 @@ http://www.whois.com/whois website to get detailed information about a domain na
 
 ## OUTPUT:
 
-![Screenshot from 2023-05-15 04-23-42](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/505c1008-6602-4c30-a18f-a19831193609)
+![Screenshot 2024-09-24 200419](https://github.com/user-attachments/assets/6c66e554-3fa1-4ec0-9839-1dbff9255812)
+
 
 
 
@@ -36,7 +37,7 @@ http://www.whois.com/whois website to get detailed information about a domain na
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of saveetha.ac.in.
 ```
-ping saveetha.ac.in
+ping www.google.com
 ```
 ## Output:
 
@@ -77,25 +78,27 @@ nmap -p 21 -sV --script=banner ftp.vim.org
 ```
 ## Output:
 
-![Screenshot from 2023-05-13 05-14-53](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/4631c0fd-1296-4c74-82fa-8950c48c5a61)
+![nmap](https://github.com/user-attachments/assets/59ffc8dd-f25f-41aa-a9ca-d973e73a5fb6)
+
 
 
 
 ## Whatweb:
 ```
-whatweb infosys.com
+whatweb bing.com
 ```
 ```
-whatweb zoho.com
+whatweb microsoft.com
 ```
 ```
 whatweb -v -a 3 172.17.52.201
 ```
 ## Output:
 
-![Screenshot from 2023-05-15 04-48-16](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/ab6e52ed-b1c2-4c7c-b4cb-edc75d6de5e6)
+![whatweb](https://github.com/user-attachments/assets/c33f8b1f-5132-4424-866a-ef9a8bf5299a)
 
-![Screenshot from 2023-05-15 03-56-55](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/3daa0d6f-df5d-4571-bf8b-c2fe63bbc3cc)
+![318627802-94b2bd7c-ecf2-4421-8a53-10e1c056b1aa](https://github.com/user-attachments/assets/1415c967-bd2b-49c8-aada-e0ab3014922a)
+
 
 
 ## httprint:
@@ -104,7 +107,8 @@ httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 ```
 ## Output:
 
-![Screenshot from 2023-05-15 04-16-42](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/a70e6db5-d324-4bee-80f9-9dfdf9b37338)
+![httprint](https://github.com/user-attachments/assets/7f378541-2fcd-4b8a-89a6-ad0b2ad5c4be)
+
 
 
 
@@ -112,33 +116,36 @@ httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 # Tracing the Location
 ## TCP Traceroute:
 ```
-sudo traceroute -T www.saveetha.ac.in
+sudo traceroute -T www.youtube.com
 ```
 ## Output:
 
 
-![Screenshot from 2023-05-15 04-51-31](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/a4c85efc-4084-4513-895e-325f5f53f5f7)
+![tcp traceroute](https://github.com/user-attachments/assets/4532137e-726c-4246-aa22-4e775fb2f106)
+
 
 
 
 ## UDP Traceroute:
 ```
-sudo traceroute -U www.saveetha.ac.in
+sudo traceroute -U www.chrome.com
 ```
 ## Output:
 
 
-![Screenshot from 2023-05-15 04-54-26](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/8c7b84b9-8045-45c3-ba6a-f2af47f40e5e)
+![udp traceroute](https://github.com/user-attachments/assets/f1663eb6-075e-43af-a487-2ae4246a7096)
+
 
 
 
 ## ICMP Traceroute:
 ```
-sudo traceroute  www.saveetha.ac.in
+sudo traceroute  www.bing.com
 ```
 ## Output:
 
-![Screenshot from 2023-05-15 04-53-50](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/00a45edd-a2df-4cc6-858c-87d5b4a6b659)
+![traceroute](https://github.com/user-attachments/assets/87591fac-9203-41aa-93ae-a1d6c3206b89)
+
 
 
 
