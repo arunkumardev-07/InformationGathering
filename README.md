@@ -62,16 +62,6 @@ https://web.archive.org/
 
 # Webserver Fingerprinting:
 
-## Netcat:
-```
-nc 172.17.52.118 80
-```
-## Output:
-
-
-![Screenshot from 2023-05-13 05-08-48](https://github.com/A-Thiyagarajan/InformationGathering/assets/118707693/7c38b307-51d1-45b5-85ec-751ed930ba9b)
-
-
 ## nmap:
 ```
 nmap -p 21 -sV --script=banner ftp.vim.org
